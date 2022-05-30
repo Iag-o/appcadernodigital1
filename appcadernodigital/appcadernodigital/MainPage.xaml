@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appcadernodigital.MainPage"
+             BackgroundColor="#00E1D9">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        
+        <Label Text="Ensino Médio"/>
+        <Button Text="Primeiro" Clicked="Button_Clicked_1" BackgroundColor="LightSeaGreen" TextColor="White"/>
+        <Button Text="Segundo" Clicked="Button_Clicked_2" BackgroundColor="#213970" TextColor="White" />
+        <Button Text="Terceiro" Clicked="Button_Clicked_3" BackgroundColor="#210070" TextColor="white"/>
+       
+
+    </StackLayout>
+
+</ContentPage>

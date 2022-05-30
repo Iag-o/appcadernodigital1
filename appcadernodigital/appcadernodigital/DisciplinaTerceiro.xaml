@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appcadernodigital.DisciplinaTerceiro"
+             BackgroundColor="#00E1D9">
+    <ContentPage.Content>
+        <StackLayout> 
+            
+            <Label Text="ensino médio" />
+            <Grid RowSpacing="20" ColumnSpacing="10" Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+
+            <Button Grid.Row="0" Grid.Column="0"
+             Text="Artes" 
+             Clicked="Button_Clicked" />
+                
+            <Button Grid.Row="0" Grid.Column="1" 
+             Text="Biologia" 
+             Clicked="Button_Clicked_1" />
+                
+            <Button Grid.Row="1" Grid.Column="0"
+             Text="Educação Fisica" 
+             Clicked="Button_Clicked_2" />
+               
+            <Button Grid.Row="1" Grid.Column="1" 
+             Text="Filosofia" 
+             Clicked="Button_Clicked_3" />
+                
+            <Button Grid.Row="2" Grid.Column="0" 
+             Text="Física" 
+             Clicked="Button_Clicked_4" />
+                
+            <Button Grid.Row="2" Grid.Column="1" 
+             Text="Geografia"
+             Clicked="Button_Clicked_5" />
+                
+            <Button Grid.Row="3" Grid.Column="0" 
+              Text="Historia" 
+              Clicked="Button_Clicked_6" />
+                
+            <Button Grid.Row="3" Grid.Column="1" 
+            Text="Inglês" 
+            Clicked="Button_Clicked_7" />
+                
+            <Button Grid.Row="4" Grid.Column="0" 
+             Text="Matematica" 
+             Clicked="Button_Clicked_8" />
+                
+            <Button Grid.Row="4" Grid.Column="1" 
+             Text="Português" 
+             Clicked="Button_Clicked_9" />
+                
+            <Button Grid.Row="5" Grid.Column="0" 
+             Text="Quimica" 
+              Clicked="Button_Clicked_10" />
+                
+                </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
