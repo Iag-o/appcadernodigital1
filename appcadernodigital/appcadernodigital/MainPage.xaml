@@ -6,10 +6,19 @@
 
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
         
-        <Label Text="Ensino Médio"/>
-        <Button Text="Primeiro" Clicked="Button_Clicked_1" BackgroundColor="LightSeaGreen" TextColor="White"/>
-        <Button Text="Segundo" Clicked="Button_Clicked_2" BackgroundColor="#213970" TextColor="White" />
-        <Button Text="Terceiro" Clicked="Button_Clicked_3" BackgroundColor="#210070" TextColor="white"/>
+        <Label Text="Ensino Etim" FontSize="Large" FontAttributes="Bold" TextColor="Black"/>
+        
+        <Button Text="Primeiro" Clicked="Button_Clicked_1" 
+                BackgroundColor="LightSeaGreen" TextColor="White" 
+                 FontAttributes="Bold"/>
+        
+        <Button Text="Segundo" Clicked="Button_Clicked_2" 
+                BackgroundColor="#213970" TextColor="White" 
+                FontAttributes="Bold"/>
+        
+        <Button Text="Terceiro" Clicked="Button_Clicked_3" 
+                BackgroundColor="#210070" TextColor="white"
+                FontAttributes="Bold"/>
        
 
     </StackLayout>

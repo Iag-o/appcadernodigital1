@@ -7,7 +7,7 @@
         
         <StackLayout>
             
-            <Label Text="ensino médio" />
+            <Label Text="Ensino médio" FontSize="Large" FontAttributes="Bold" TextColor="Black" />
             
             <Grid RowSpacing="20" ColumnSpacing="10" Padding="10">
                 <Grid.ColumnDefinitions>
@@ -26,50 +26,111 @@
 
                 <Button Grid.Row="0" Grid.Column="0"
                     Text="artes" 
-                    Clicked="Button_Clicked" BackgroundColor="LightSeaGreen"/>
+                    Clicked="Button_Clicked" BackgroundColor="LightSeaGreen"
+                    FontAttributes="Bold" TextColor="White"/>
 
                 <Button Grid.Row="0" Grid.Column="1"
                 Text="biologia" 
-                Clicked="Button_Clicked_1" BackgroundColor="LightSeaGreen"/>
+                Clicked="Button_Clicked_1" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
 
                 <Button Grid.Row="1" Grid.Column="0"
                 Text="Educação Física" 
-                Clicked="Button_Clicked_2" BackgroundColor="LightSeaGreen"/>
+                Clicked="Button_Clicked_2" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
 
                 <Button Grid.Row="1" Grid.Column="1"
                 Text="Filosofia" 
-                Clicked="Button_Clicked_3" BackgroundColor="LightSeaGreen"/>
+                Clicked="Button_Clicked_3" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
 
                 <Button Grid.Row="2" Grid.Column="0"
                 Text="Física" 
-                Clicked="Button_Clicked_4" BackgroundColor="LightSeaGreen"/>
+                Clicked="Button_Clicked_4" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
 
                 <Button Grid.Row="2" Grid.Column="1"
                 Text="Geografia" 
-                Clicked="Button_Clicked_5" />
+                Clicked="Button_Clicked_5" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
 
                 <Button Grid.Row="3" Grid.Column="0"
                 Text="História" 
-                Clicked="Button_Clicked_6" />
+                Clicked="Button_Clicked_6" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
 
                 <Button Grid.Row="3" Grid.Column="1"
                 Text="inglês" 
-                Clicked="Button_Clicked_7" />
+                Clicked="Button_Clicked_7" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
 
                 <Button Grid.Row="4" Grid.Column="0"
                 Text="Matemática"
-                Clicked="Button_Clicked_8" />
+                Clicked="Button_Clicked_8" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
 
                 <Button Grid.Row="4" Grid.Column="1"
                 Text="Português" 
-                Clicked="Button_Clicked_9" />
+                Clicked="Button_Clicked_9" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
 
                 <Button Grid.Row="5" Grid.Column="0"
                 Text="Química" 
-                Clicked="Button_Clicked_10" />
+                Clicked="Button_Clicked_10" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
         
         </Grid>
-          
+
+            <Label Text="Ensino Técnico" FontSize="Large" FontAttributes="Bold" TextColor="Black" />
+
+            <Grid RowSpacing="20" ColumnSpacing="10" Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45"/>
+                </Grid.RowDefinitions>
+
+
+                <Button Grid.Row="0" Grid.Column="0"
+                    Text="PW1" 
+                    Clicked="Button_Clicked" BackgroundColor="LightSeaGreen"
+                    FontAttributes="Bold" TextColor="White"/>
+
+                <Button Grid.Row="0" Grid.Column="1"
+                Text="Análise" 
+                Clicked="Button_Clicked_1" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
+
+                <Button Grid.Row="1" Grid.Column="0"
+                Text="Desing Digital" 
+                Clicked="Button_Clicked_2" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
+
+                <Button Grid.Row="1" Grid.Column="1"
+                Text="Fundamentos" 
+                Clicked="Button_Clicked_3" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
+
+                <Button Grid.Row="2" Grid.Column="0"
+                Text="Algoritmo" 
+                Clicked="Button_Clicked_4" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
+
+                <Button Grid.Row="2" Grid.Column="1"
+                Text="BD1" 
+                Clicked="Button_Clicked_5" BackgroundColor="LightSeaGreen"
+                FontAttributes="Bold" TextColor="White"/>
+
+
+            </Grid>
+
 
         </StackLayout>
     </ContentPage.Content>
