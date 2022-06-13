@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <StackLayout> 
             
-            <Label Text="ensino médio" FontSize="Large" FontAttributes="Bold" TextColor="Black" />
+            <Label Text="Ensino Médio" FontSize="Large" FontAttributes="Bold" TextColor="Black" />
             
             <Grid RowSpacing="20" ColumnSpacing="10" Padding="10">
                 <Grid.ColumnDefinitions>
@@ -14,7 +14,6 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="45"/>
                     <RowDefinition Height="45"/>
                     <RowDefinition Height="45"/>
                     <RowDefinition Height="45"/>
@@ -68,6 +67,41 @@
               Clicked="Button_Clicked_10" BackgroundColor="#210070" TextColor="white"/>
                 
                 </Grid>
+
+            <Label Text="Ensino Técnico" FontSize="Large" FontAttributes="Bold" TextColor="Black" />
+
+            <Grid RowSpacing="20" ColumnSpacing="10" Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="45"/>
+                </Grid.RowDefinitions>
+
+
+                <Button Grid.Row="0" Grid.Column="0"
+             Text="PW3" 
+             Clicked="Button_Clicked_11" BackgroundColor="#210070" TextColor="white"/>
+
+                <Button Grid.Row="0" Grid.Column="1" 
+             Text="App2" 
+             Clicked="Button_Clicked_12" BackgroundColor="#210070" TextColor="white"/>
+
+                <Button Grid.Row="1" Grid.Column="0"
+             Text="Internet" 
+             Clicked="Button_Clicked_13" BackgroundColor="#210070" TextColor="white"/>
+
+                <Button Grid.Row="1" Grid.Column="1" 
+             Text="TCC" 
+             Clicked="Button_Clicked_14" BackgroundColor="#210070" TextColor="white"/>
+
+                <Button Grid.Row="2" Grid.Column="0" 
+             Text="Software" 
+             Clicked="Button_Clicked_15" BackgroundColor="#210070" TextColor="white"/>
+            </Grid>
 
         </StackLayout>
     </ContentPage.Content>

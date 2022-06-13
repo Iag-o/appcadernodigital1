@@ -74,5 +74,30 @@ namespace appcadernodigital
         {
             Navigation.PushAsync(new Terceiro.Quimica());
         }
+
+        private void Button_Clicked_11(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Terceiro.PwTres());
+        }
+
+        private void Button_Clicked_12(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Terceiro.AppDois());
+        }
+
+        private void Button_Clicked_13(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Terceiro.Internet());
+        }
+
+        private void Button_Clicked_14(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Terceiro.TCC());
+        }
+
+        private void Button_Clicked_15(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Terceiro.Software());
+        }
     }
 }
